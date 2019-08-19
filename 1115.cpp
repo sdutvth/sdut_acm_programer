@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 void solution(){
-    int a,b;
+    int a,b,t;
     cin>>a>>b;
-    cout<<a+b<<endl;
+    t = a; a = b; b = t;
+    cout<<a<<" "<<b<<endl;
 }
 
 int main() {
