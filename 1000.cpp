@@ -2,9 +2,8 @@
 using namespace std;
 void solution(){
     int a,b;
-    a = 123;
-    b = 456;
-    cout<<"sum is "<<a+b<<endl;
+    cin>>a>>b;
+    cout<<a+b<<endl;
 }
 
 int main() {
